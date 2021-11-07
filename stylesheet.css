@@ -1191,3 +1191,51 @@ footer-desktop{
     display: block;
   }
 }
+
+#course-window{
+
+  width: 60%;
+  height: 400px;
+  margin: auto;
+  background-color: #439A86;
+  margin-top: 6%;
+}
+#course-window h1{
+  text-align: center;
+   font-size: 30px;
+   color: white;
+   padding-top: 10px;
+}
+#video-window{
+
+  width: 80%;
+  height: 300px;
+  margin: auto;
+  background-color: #000;
+  margin-top: 2%;
+}
+#next-lesson{
+  margin-left: 45%;
+  border-radius: 20px;
+  border-color: white;
+  border-style: solid;
+  color: white;
+  background-color: black;
+  width: 80px;
+  font-size: 20px;
+  margin-top: 5px;
+}
+#close-lesson{
+  margin-left: 45%;
+  border-radius: 20px;
+  border-color: white;
+  border-style: solid;
+  color: white;
+  background-color: black;
+  width: 80px;
+  font-size: 20px;
+  position: absolute;
+  left: 1%;
+  top: 80%;
+  display: none;
+}
