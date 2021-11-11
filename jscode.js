@@ -94,15 +94,15 @@
 })(jQuery);
 
 function showbanner() {
-    let mainBanner = document.getElementById('banner');
-    mainBanner.style.filter = "blur(8px)";
+    //let mainBanner = document.getElementById('banner');
+    //mainBanner.style.filter = "blur(8px)";
     let banner = document.getElementById('quizBanner');
     banner.style.display = "block";
 }
 
 function notNow() {
-    let mainBanner = document.getElementById('banner');
-    mainBanner.style.filter = "none";
+    //let mainBanner = document.getElementById('banner');
+    //mainBanner.style.filter = "none";
     let banner = document.getElementById('quizBanner');
     banner.style.display = "none";
 }
